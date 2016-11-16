@@ -1,0 +1,73 @@
+body *{font-family: '微软雅黑'}
+
+
+p{font-family: '微软雅黑';color: #545343}
+a,span{font-family: '微软雅黑';color: #45473D}
+.c1{column-count:3;}
+
+.center{margin: 0 10%;}
+.right{text-align: right;}
+h5{font-size: 2em}
+.ul1 ul li{font-size: 16px;padding: 10px 20%}
+
+.span1 span{margin: 5px 0;display: block;color: #408080;font-size: 20px;font-weight: 600;box-shadow: 0 0 10px 0px;padding: 10px 0;margin-bottom: 1em}
+.span2 span{margin: 0 10px;display:inline; color: #408080;font-size: 20px;font-weight: 600;padding: 10px 0;margin-bottom: 10px}
+
+.panel-body img{width: 100px}
+.a1 a{padding: 10px}
+.a1 a:hover{box-shadow: 0 0 10px 0 ;transition: all .320000s ease-out;}
+.p1 p{text-indent: 2em;font-size: 16px;line-height: 1.5em;font-family: '微软雅黑'}
+.p2 p{text-align: center;font-size: 18px;box-shadow: 0 0 1px 0;color: #00D5D5}
+.p3 p{text-align: center;font-size: 20px}
+.p4 p{text-align: center;font-size: 18px;}
+
+.p1 img{float: right;margin: 1em}
+.service i.square:hover {
+background: #FB5200;transition :all 0.8s ease-out;}
+.img1 img{width: 100px ;margin: 0.5em}
+
+.p2 img:hover{box-shadow: 0 0 10px 0;transition :all .32s ease-out;}
+
+
+.juzhong{text-align: center;}
+
+.header{position: fixed;z-index: 999;background: white;height: 70px}
+.top-shadow{padding-top: 70px}
+.logo img{margin-top: -15px}
+.ttt{padding: 10px}
+.ttt:hover{color: black;box-shadow: 0 0 10px 0 ;transition: all .320000s ease-out;}
+nav a{font-weight: 100}
+
+.border{border: 1px solid #C0C0C0;margin-top: 10px;float: left;}
+
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    .mean-container .mean-bar{position: fixed;background: #FF8000}
+    
+    .header{position: absolute;}
+    .top-shadow{padding-top:120px}
+   
+    .p1 img{margin:0}
+
+    .s{
+
+        clear:both;
+        width:100%;
+         
+    }
+    
+   
+    .four.columns {width: 76px;float: left;}
+    .logo img{padding-top: 30px;margin-left: 50%}
+    #jieshao div{padding: 0 10%}
+    #jieshao ul{margin-top: 0}
+    .center{padding: 0}
+    .tp-leftarrow.default, .tp-rightarrow.default {
+    display: none;
+    }
+}
+
+
+
+
+
